@@ -1,0 +1,28 @@
+{
+	"geode": "4.0.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "yourname.ui-scale",
+	"name": "UI Scale",
+	"version": "v1.0.0",
+	"developer": "yourname",
+	"description": "Меняет масштаб интерфейса в уровне (кнопки паузы, практики и т.д.).",
+	"settings": {
+		"ui-scale": {
+			"type": "float",
+			"name": "Масштаб интерфейса",
+			"description": "1.0 = как обычно. Применяется при входе в уровень.",
+			"default": 1.0,
+			"min": 0.3,
+			"max": 2.5,
+			"control": {
+				"slider": true,
+				"input": true
+			}
+		}
+	}
+}
